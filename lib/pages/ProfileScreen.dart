@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_effective_lab/widgets/HeaderTextForAllBlock.dart';
+import 'package:flutter_effective_lab/widgets/HorizontalCategoryList.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -10,12 +12,20 @@ class ProfileScreen extends StatefulWidget {
 class _MySettingsPageState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-        padding: const EdgeInsets.symmetric(vertical: 30,horizontal: 30),
-        child: Text(
-          'Профиль',
-          style: Theme.of(context).textTheme.titleLarge,
-        )
+    return ListView(
+        children: const [
+          HeaderTextForAllBlock(
+            title: 'У вас подключено',
+            paragraph: 'Подписки, автоплатежи и сервисы на которые вы подписались'
+            ),
+          HorizontalCategoryList(),
+          HeaderTextForAllBlock(
+            title: 'Тарифы и лимиты',
+            paragraph: 'Для операций в Сбербанк Онлайн'
+            ),
+          
+         
+        ],
       );
   }
 }
