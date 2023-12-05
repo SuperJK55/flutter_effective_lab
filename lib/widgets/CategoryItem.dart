@@ -13,7 +13,7 @@ class CategoryItem extends StatelessWidget {
       onPressed: () {},
       style: ElevatedButton.styleFrom(
           elevation: 10,
-          fixedSize: const Size(216, 130),
+          fixedSize: const Size(225, 130),
           backgroundColor: Colors.white,
           surfaceTintColor: Colors.white,
           foregroundColor: Colors.black,
@@ -42,7 +42,7 @@ class CategoryItem extends StatelessWidget {
                   )
                 ],
               ),
-              const SizedBox(height: 22),
+              const SizedBox(height: 16),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisSize: MainAxisSize.min,
@@ -51,7 +51,7 @@ class CategoryItem extends StatelessWidget {
                     categoryModel.subtitle,
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
-                  const SizedBox(height: 16),
+
                   Text(
                     '${categoryModel.cost} в ${categoryModel.period}',
                     style: Theme.of(context).textTheme.bodySmall,

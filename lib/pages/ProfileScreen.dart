@@ -26,7 +26,7 @@ class _MySettingsPageState extends State<ProfileScreen> {
             title: 'Тарифы и лимиты',
             paragraph: 'Для операций в Сбербанк Онлайн'
             ),
-          SizedBox(height: 30,),
+          SizedBox(height: 24,),
           TariffAndLimitsBlock(
             tariffAndLimitsModel: TariffAndLimitsModel(
                 imageName: "lib/assets/images/day_limit.png",

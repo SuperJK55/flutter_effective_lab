@@ -19,7 +19,7 @@ class HeaderTextForAllBlock extends StatelessWidget {
             title,
             style: Theme.of(context).textTheme.displayLarge,
           ),
-          const SizedBox(height: 14),
+          const SizedBox(height: 8),
           Text(
             paragraph,
             style: Theme.of(context).textTheme.displaySmall,

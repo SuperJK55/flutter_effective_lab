@@ -17,7 +17,6 @@ class CustomSliverAppBar extends StatelessWidget {
           onPressed: () {},
         ),
       ],
-      backgroundColor: Colors.transparent,
       elevation: 0,
       leading: IconButton(
         icon: const Icon(Icons.close),
@@ -46,9 +45,7 @@ class CustomSliverAppBar extends StatelessWidget {
                 'Екатерина',
                 style: Theme.of(context).textTheme.titleLarge,
               ),
-              const SizedBox(
-                height: 14,
-              )
+              
             ],
           ),
         ),

@@ -10,7 +10,7 @@ class HorizontalCategoryList extends StatelessWidget {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.symmetric(vertical: 8),
-      height: 170,
+      height: 180,
       child: ListView.builder(
         padding: const EdgeInsets.all(17),
         scrollDirection: Axis.horizontal,

@@ -4,57 +4,52 @@ import 'package:flutter_effective_lab/theme/MyAppColor.dart';
 ThemeData lightTheme(BuildContext context) {
   return ThemeData.light().copyWith(
       colorScheme: ColorScheme.fromSeed(seedColor: MyAppColor.icon),
-      useMaterial3: true,
       scaffoldBackgroundColor: MyAppColor.mainBackground,
+      appBarTheme: const AppBarTheme(
+        surfaceTintColor: Colors.white,
+      ),
       textTheme: const TextTheme(
         titleLarge: TextStyle(
             fontFamily: 'SFProText',
             fontSize: 24,
-            height: 0.06,
             letterSpacing: -0.40,
             color: MyAppColor.title,
-            fontWeight: FontWeight.bold),
+            fontWeight: FontWeight.w700),
         titleMedium: TextStyle(
             fontFamily: 'SFProText',
             fontSize: 14,
-            height: 0.08,
-            letterSpacing: -0.40,
+            letterSpacing: -0.41,
             color: MyAppColor.title,
-            fontWeight: FontWeight.normal),
+            fontWeight: FontWeight.w500),
         displayLarge: TextStyle(
             fontFamily: 'SFProText',
             fontSize: 20,
-            height: 0.06,
             letterSpacing: -0.70,
             color: MyAppColor.title,
-            fontWeight: FontWeight.bold),
+            fontWeight: FontWeight.w700),
         displayMedium: TextStyle(
             fontFamily: 'SFProText',
             fontSize: 16,
-            height: 0.08,
             letterSpacing: -0.40,
-            fontWeight: FontWeight.normal),
+            fontWeight: FontWeight.w500),
         displaySmall: TextStyle(
             fontFamily: 'SFProText',
             fontSize: 14,
-            height: 0.09,
             letterSpacing: -0.42,
             color: MyAppColor.subtitle,
-            fontWeight: FontWeight.bold),        
+            fontWeight: FontWeight.w500),        
         bodyMedium: TextStyle(
             fontFamily: 'SFProText',
             fontSize: 16,
-            height: 0.08,
             color: MyAppColor.title,
             letterSpacing: -0.40,
-            fontWeight: FontWeight.normal),
+            fontWeight: FontWeight.w500),
         bodySmall: TextStyle(
             fontFamily: 'SFProText',
             fontSize: 14,
-            height: 0.09,
             color: MyAppColor.subtitle,
             letterSpacing: -0.40,
-            fontWeight: FontWeight.normal),
+            fontWeight: FontWeight.w500),
       ),
       tabBarTheme: const TabBarTheme(
         indicatorColor: MyAppColor.tabBarIndicator,
@@ -66,14 +61,12 @@ ThemeData lightTheme(BuildContext context) {
         labelStyle: TextStyle(
             fontFamily: 'SFProText',
             fontSize: 16,
-            height: 0.09,
             letterSpacing: -0.40,
-            fontWeight: FontWeight.normal),
+            fontWeight: FontWeight.w500),
         unselectedLabelStyle: TextStyle(
             fontFamily: 'SFProText',
             fontSize: 16,
-            height: 0.09,
             letterSpacing: -0.40,
-            fontWeight: FontWeight.normal),
+            fontWeight: FontWeight.w500),
       ));
 }
