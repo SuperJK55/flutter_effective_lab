@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_effective_lab/widgets/ChipItem.dart';
 import 'package:flutter_effective_lab/widgets/HeaderTextForAllBlock.dart';
 import 'package:flutter_effective_lab/widgets/HorizontalCategoryList.dart';
 import 'package:flutter_effective_lab/widgets/TariffAndLimitsBlock.dart';
@@ -59,7 +60,8 @@ class _MySettingsPageState extends State<ProfileScreen> {
             title: 'Интересы',
             paragraph:
               'Мы подбираем истории и предложения по темам, которые вам нравятся',),
-         
+          SizedBox(height: 16,),
+          ChipItem(),
         ],
       );
   }

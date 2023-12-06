@@ -8,6 +8,20 @@ ThemeData lightTheme(BuildContext context) {
       appBarTheme: const AppBarTheme(
         surfaceTintColor: Colors.white,
       ),
+      chipTheme: ChipThemeData(
+        selectedColor: Colors.black45,
+        checkmarkColor: Colors.black,
+        backgroundColor: MyAppColor.chipBackground,
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+            side: const BorderSide(color: Colors.transparent)),
+        labelStyle: const TextStyle(
+            fontFamily: 'SFProText',
+            fontSize: 14,
+            letterSpacing: -0.41,
+            color: MyAppColor.title,
+            fontWeight: FontWeight.w300),
+      ),
       textTheme: const TextTheme(
         titleLarge: TextStyle(
             fontFamily: 'SFProText',

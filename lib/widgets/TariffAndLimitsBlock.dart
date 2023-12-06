@@ -11,7 +11,7 @@ class TariffAndLimitsBlock extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        fixedSize: const Size(375, 64),
+        
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.zero,
         ),
@@ -38,8 +38,7 @@ class TariffAndLimitsBlock extends StatelessWidget {
                 const SizedBox(
                   height: 6,
                 ),
-                Wrap(
-                  children: [
+               
                     Text(
                       tariffAndLimitsModel.title,
                       style: Theme.of(context).textTheme.bodyMedium,
@@ -50,8 +49,7 @@ class TariffAndLimitsBlock extends StatelessWidget {
                       style: Theme.of(context).textTheme.bodySmall,
                       softWrap: true,
                     ),
-                  ],
-                ),
+                  
                 const SizedBox(
                   height: 6,
                 ),
