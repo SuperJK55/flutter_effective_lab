@@ -1,16 +1,23 @@
-# flutter_effective_lab
+# Лабораторная работа №1 по Flutter
+Версия Flutter - 3.16.1
 
-A new Flutter project.
+Версия Dart - 3.2.1 • DevTools 2.28.3
 
-## Getting Started
+Минимальная версия Dart в проекте - >=3.2.1 <4.0.0
 
-This project is a starting point for a Flutter application.
+## Screenshots iOS(iPhone 15 Pro)
+| Screenshot 1                                       | Screenshots 2                                       |
+|----------------------------------------------------|-----------------------------------------------------|
+| ![First home image](assets/screenshots/main_1.png) | ![Second home image](assets/screenshots/main_2.png) |
 
-A few resources to get you started if this is your first Flutter project:
+## Rotated screenshots iOS(iPhone 15 Pro)
+| Rotate 1                                           | Rotate 2                                            |
+|----------------------------------------------------|-----------------------------------------------------|
+| ![First home image](assets/screenshots/rotate_1.png)| ![Second home image](assets/screenshots/rotate_2.png)|
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots Android
+| Screenshot 1                                       | Screenshots 2                                       |
+|----------------------------------------------------|-----------------------------------------------------|
+| ![First home image](assets/screenshots/android_main_1.jpg)| ![Second home image](assets/screenshots/android_main_2.jpg)|
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Огромная благодарность ```plumsoftware``` за скрины и тест на андроиде.
