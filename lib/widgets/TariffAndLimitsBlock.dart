@@ -26,8 +26,8 @@ class TariffAndLimitsBlock extends StatelessWidget {
         children: [
           Image.asset(
             tariffAndLimitsModel.imageName,
-            width: 32,
-            height: 32,
+            width: 36,
+            height: 36,
           ),
           const SizedBox(width: 12),
           Expanded(

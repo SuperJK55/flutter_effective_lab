@@ -34,7 +34,7 @@ class _MySettingsPageState extends State<ProfileScreen> {
                 title: "Изменить суточный лимит",
                 subtitle: "На платежи и переводы")),
           Padding(
-            padding: EdgeInsets.only(left: 64),
+            padding: EdgeInsets.only(left: 72),
             child: Divider(
               height: 2,
             ),
@@ -45,7 +45,7 @@ class _MySettingsPageState extends State<ProfileScreen> {
                 title: "Переводы без комиссии",
                 subtitle: "Показать остаток в этом месяце")),
           Padding(
-            padding: EdgeInsets.only(left: 64),
+            padding: EdgeInsets.only(left: 72),
             child: Divider(
               height: 2,
             ),

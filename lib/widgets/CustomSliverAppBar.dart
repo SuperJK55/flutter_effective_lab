@@ -45,7 +45,6 @@ class CustomSliverAppBar extends StatelessWidget {
                 'Екатерина',
                 style: Theme.of(context).textTheme.titleLarge,
               ),
-              
             ],
           ),
         ),

@@ -13,7 +13,7 @@ class CategoryItem extends StatelessWidget {
       onPressed: () {},
       style: ElevatedButton.styleFrom(
           elevation: 10,
-          fixedSize: const Size(225, 130),
+          fixedSize: const Size(230, 130),
           backgroundColor: Colors.white,
           surfaceTintColor: Colors.white,
           foregroundColor: Colors.black,
@@ -21,7 +21,7 @@ class CategoryItem extends StatelessWidget {
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 16),
+        padding: const EdgeInsets.symmetric(vertical: 16),
         child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
